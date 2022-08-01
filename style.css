@@ -1,0 +1,316 @@
+:root{
+    --warna-valet-1: #4E60FF;
+    --warna-valet-2: #697BFF;
+    --warna-valet-3: #C7C8D2;
+}
+
+/* Nav */
+.nav{
+    color: #34b8e1;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 5rem;
+    font-size: 15px;
+}
+
+.nav ul li a{
+    cursor: pointer;
+}
+/* End Nav */
+
+/* Main */
+img{
+    position: relative;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+.text-foto h1{
+    position: absolute;
+    top: 20px;
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 2;
+    margin-left: 25rem;
+}
+
+.bungkus-p{
+    position: absolute;
+    width: 90%;
+    top: 22rem;
+    margin-left: 4.2rem;
+    font-size: 15px;
+}
+
+.container-button{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    top: 28rem;
+    margin-left: 28rem;
+}
+
+.container-button button{
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.container-button button:nth-child(1){
+    border: 3px solid var(--warna-valet-1);
+    color: var(--warna-valet-1);
+    background: none;
+}
+
+.container-button button:nth-child(2){
+    background: var(--warna-valet-1);
+    color: white;
+    border: 3px solid var(--warna-valet-1);
+}
+
+.container-button button:nth-child(1):hover{
+    background: var(--warna-valet-1);
+    color: white;
+    transition: 0.2s;
+}
+
+.container-button button:nth-child(2):hover{
+    border: 3px solid var(--warna-valet-1);
+    color: var(--warna-valet-1);
+    background: none;
+    transition: 0.2s;
+}
+/* End Main */
+
+/* main2 */
+.kotak-visi{
+    background: var(--warna-valet-1);
+}
+
+.kotak-visi .visi h2{
+    margin-left: 28rem;
+    font-size: 4rem;
+}
+
+.kotak-visi .visi p{
+    margin-left: 22rem;
+    font-size: 20px;
+}
+
+.kotak-misi{
+    background: var(--warna-valet-2);
+    margin-left: 20%;
+    margin-top: -30px;
+}
+
+.kotak-misi .misi h2{
+    margin-left: 20rem;
+    font-size: 4rem;
+}
+
+.kotak-misi .misi p{
+    margin-left: 15rem;
+    font-size: 20px;
+}
+/* End Main2 */
+
+/* Our Learning */
+.card{
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 0 35px;
+    cursor: pointer;
+}
+
+.card .card-text{
+    font-size: small;
+}
+
+.card img{
+    width: 4.6rem;
+    z-index: 99999;
+    margin-left: 5rem;
+    filter: brightness(100%);
+}
+/* End */
+
+/* Upgrade */
+.card-upgrade{
+    padding: 10px 10px;
+    margin-left: 50px;
+    float: left;
+    border-color: var(--warna-valet-3);
+}
+
+.card-upgrade img{
+    filter: brightness(100%);
+}
+
+.card-upgrade .card-text{
+    font-size: small;
+}
+/* End */
+
+/* Prestasi */
+.list-prestasi{
+    width: 550px;
+    height: 125px;
+}
+
+.list-prestasi2{
+    width: 550px;
+    height: 125px;
+    margin-left: 55%;
+}
+
+.nama-prestasi h4{
+    margin-left: 10rem;
+}
+
+.nama-prestasi2 h4{
+    margin-left: 5rem;
+}
+
+.nama-prestasi p{
+    font-size: small;
+    margin-left: 45px;
+}
+
+.nama-prestasi2 p{
+    font-size: small;
+    margin-right: 5rem;
+}
+
+.img-prestasi img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    filter: brightness(100%);
+}
+
+.img-prestasi2 img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+    filter: brightness(100%);
+}
+
+/* End */
+
+/* Berita */
+.main6{
+    display: flex;
+    height: 95vh;
+}
+
+.main-6-content{
+    width: 63vw; 
+}
+
+.list-title{
+    font-size: small;
+}
+
+.main-6-content img{
+    width: 63vw;
+    border-radius: 5px;
+    filter: brightness(100%);
+}
+
+.main-6-list{
+    margin-left: 2rem;
+}
+
+.main-6-list .list{
+    display: flex;
+}
+
+.list-img{
+    margin: 0px;
+    width: 14vw;
+    height: 18vh;
+    filter: brightness(100%);
+}
+
+.list-img img{
+    width: 13vw;
+    border-radius: 5px;
+    cursor: pointer;
+    filter: brightness(100%);
+}
+/* Emd */
+
+/* Industri */
+.main-dukungan img{
+    width: 15vw;
+    margin: auto;
+    filter: brightness(100%);
+}
+
+.main-dukungan{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 50px;
+}
+/* End */
+
+/* Footer */
+.footer{
+    background-color: var(--warna-valet-1);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.bungkus-footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    padding: 10px 0;
+}
+
+.link-footer ul{
+    list-style: none;
+}
+
+.link-footer a{
+    text-decoration: none;
+}
+
+.footer2 p{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.footer3 button{
+    border: none;
+    background: var(--warna-valet-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.footer3 svg{
+    width: 25px;
+    height: 25px;
+    color: white;
+}
+/* End */
